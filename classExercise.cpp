@@ -22,4 +22,6 @@ int main(){
     }
 
     cout << "Your grade: " << userGrade << endl;
+
+    return 0;
 }

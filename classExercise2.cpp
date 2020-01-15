@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int quizGrade[5];
     int quizTemp;
-    int quizAverage;
+    double quizAverage;
     int sum = 0;
 
     for (int i = 0; i < 5; ++i){
@@ -14,8 +14,10 @@ int main(){
         sum += quizTemp;
     }
 
-    quizAverage = sum / 5;
+    quizAverage = sum / 5.0;
 
     cout << "Your average is: " << quizAverage << endl;
 
+
+    return 0;
 }
